@@ -1,0 +1,1527 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="FlightDate" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="Flight_Num_Originally_Scheduled_Code_Share_Airline" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="Operating_Airline " size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="Tail_Number" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="OriginAirportID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="OriginAirportSeqID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="OriginCityMarketID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="Origin" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="OriginCityName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="OriginState" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="OriginStateFips" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="OriginWac" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DestAirportID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DestAirportSeqID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DestCityMarketID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="Dest" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DestCityName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DestState" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DestStateFips" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DestStateName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DestWac" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="CRSDepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DepDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DepDelayMinutes" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DepDel15" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DepartureDelayGroups" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DepTimeBlk" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="TaxiOut" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="WheelsOff" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="WheelsOn" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="TaxiIn" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="CRSArrTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="ArrTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="ArrDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="ArrDelayMinutes" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="ArrDel15" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="ArrivalDelayGroups" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="ArrTimeBlk" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="Cancelled" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="CancellationCode" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="Diverted" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="CRSElapsedTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="ActualElapsedTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="AirTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="Flights" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="Distance" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="DistanceGroup" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="CarrierDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="WeatherDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="NASDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="SecurityDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="LateAircraftDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="FirstDepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="TotalAddGTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="LongestAddGTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+            <Field name="Field_120" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_6.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="True" FileFormat="0" OutputFileName="">On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>True</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ActualElapsedTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="AirTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="ArrDel15" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="ArrDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="ArrDelayMinutes" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="ArrivalDelayGroups" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="ArrTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="ArrTimeBlk" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="CancellationCode" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Cancelled" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="CarrierDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="CRSArrTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="CRSDepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="CRSElapsedTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DepartureDelayGroups" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DepDel15" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DepDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DepDelayMinutes" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DepTimeBlk" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Dest" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DestAirportID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DestAirportSeqID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DestCityMarketID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DestCityName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DestState" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DestStateFips" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DestStateName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DestWac" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Distance" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="DistanceGroup" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Diverted" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Field_120" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="FirstDepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Flight_Num_Originally_Scheduled_Code_Share_Airline" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="FlightDate" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Flights" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="LateAircraftDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="LongestAddGTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="NASDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Operating_Airline " size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Origin" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="OriginAirportID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="OriginAirportSeqID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="OriginCityMarketID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="OriginCityName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="OriginState" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="OriginStateFips" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="OriginWac" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="SecurityDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Tail_Number" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="TaxiIn" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="TaxiOut" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="TotalAddGTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="WeatherDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="WheelsOff" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="WheelsOn" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_7.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>4</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="FlightDate" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="Flight_Num_Originally_Scheduled_Code_Share_Airline" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="Operating_Airline " size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="Tail_Number" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="OriginAirportID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="OriginAirportSeqID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="OriginCityMarketID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="Origin" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="OriginCityName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="OriginState" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="OriginStateFips" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="OriginWac" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DestAirportID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DestAirportSeqID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DestCityMarketID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="Dest" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DestCityName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DestState" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DestStateFips" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DestStateName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DestWac" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="CRSDepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DepDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DepDelayMinutes" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DepDel15" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DepartureDelayGroups" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DepTimeBlk" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="TaxiOut" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="WheelsOff" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="WheelsOn" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="TaxiIn" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="CRSArrTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="ArrTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="ArrDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="ArrDelayMinutes" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="ArrDel15" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="ArrivalDelayGroups" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="ArrTimeBlk" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="Cancelled" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="CancellationCode" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="Diverted" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="CRSElapsedTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="ActualElapsedTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="AirTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="Flights" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="Distance" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="DistanceGroup" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="CarrierDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="WeatherDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="NASDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="SecurityDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="LateAircraftDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="FirstDepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="TotalAddGTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="LongestAddGTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+            <Field name="Field_120" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_8.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="FlightDate" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="Flight_Num_Originally_Scheduled_Code_Share_Airline" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="Operating_Airline " size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="Tail_Number" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="OriginAirportID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="OriginAirportSeqID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="OriginCityMarketID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="Origin" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="OriginCityName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="OriginState" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="OriginStateFips" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="OriginWac" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DestAirportID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DestAirportSeqID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DestCityMarketID" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="Dest" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DestCityName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DestState" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DestStateFips" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DestStateName" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DestWac" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="CRSDepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DepDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DepDelayMinutes" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DepDel15" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DepartureDelayGroups" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DepTimeBlk" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="TaxiOut" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="WheelsOff" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="WheelsOn" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="TaxiIn" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="CRSArrTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="ArrTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="ArrDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="ArrDelayMinutes" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="ArrDel15" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="ArrivalDelayGroups" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="ArrTimeBlk" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="Cancelled" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="CancellationCode" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="Diverted" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="CRSElapsedTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="ActualElapsedTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="AirTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="Flights" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="Distance" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="DistanceGroup" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="CarrierDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="WeatherDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="NASDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="SecurityDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="LateAircraftDelay" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="FirstDepTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="TotalAddGTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="LongestAddGTime" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+            <Field name="Field_120" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\On_Time_Marketing_Carrier_On_Time_Performance_2022_9.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FlightDate" selected="True" />
+            <SelectField field="Operating_Airline " selected="True" />
+            <SelectField field="Dest" selected="True" />
+            <SelectField field="DestCityName" selected="True" />
+            <SelectField field="DestState" selected="True" />
+            <SelectField field="DestStateName" selected="True" />
+            <SelectField field="ArrDelay" selected="True" />
+            <SelectField field="ArrDelayMinutes" selected="True" />
+            <SelectField field="ArrDel15" selected="True" />
+            <SelectField field="Cancelled" selected="True" />
+            <SelectField field="Diverted" selected="True" />
+            <SelectField field="CarrierDelay" selected="True" />
+            <SelectField field="WeatherDelay" selected="True" />
+            <SelectField field="NASDelay" selected="True" />
+            <SelectField field="SecurityDelay" selected="True" />
+            <SelectField field="LateAircraftDelay" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings>
+        <Position x="270" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"FlightDate","Operating_Airline ","Dest","DestCityName","DestState","DestStateName","ArrDelay","ArrDelayMinutes","ArrDel15","Cancelled","Diverted","CarrierDelay","WeatherDelay","NASDelay","SecurityDelay","LateAircraftDelay"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"CarrierDelay","WeatherDelay","NASDelay","SecurityDelay","LateAircraftDelay"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ArrDel15" selected="True" />
+            <SelectField field="ArrDelay" selected="True" />
+            <SelectField field="ArrDelayMinutes" selected="True" />
+            <SelectField field="Cancelled" selected="True" />
+            <SelectField field="CarrierDelay" selected="True" />
+            <SelectField field="Dest" selected="True" />
+            <SelectField field="DestCityName" selected="True" />
+            <SelectField field="DestState" selected="True" />
+            <SelectField field="DestStateName" selected="True" />
+            <SelectField field="Diverted" selected="True" />
+            <SelectField field="FlightDate" selected="True" />
+            <SelectField field="LateAircraftDelay" selected="True" />
+            <SelectField field="NASDelay" selected="True" />
+            <SelectField field="Operating_Airline " selected="True" />
+            <SelectField field="SecurityDelay" selected="True" />
+            <SelectField field="WeatherDelay" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings>
+        <Position x="270" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"ArrDel15","ArrDelay","ArrDelayMinutes","Cancelled","CarrierDelay","Dest","DestCityName","DestState","DestStateName","Diverted","FlightDate","LateAircraftDelay","NASDelay","Operating_Airline ","SecurityDelay","WeatherDelay"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ArrDel15" selected="True" type="Int16" size="2" />
+            <SelectField field="ArrDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="ArrDelayMinutes" selected="True" type="Int16" size="2" />
+            <SelectField field="Cancelled" selected="True" type="Int16" size="2" />
+            <SelectField field="CarrierDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="Diverted" selected="True" type="Int16" size="2" />
+            <SelectField field="LateAircraftDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="NASDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="SecurityDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="WeatherDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="Year" selected="False" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings>
+        <Position x="438" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"CarrierDelay","LateAircraftDelay","NASDelay","SecurityDelay","WeatherDelay"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\deivx\AppData\Local\Temp\Engine_17052_df1a10336ea5cb458bf995619c905652_\Engine_17052_0caebeb7dbbcd24091b22a24de0d5d6d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FlightDate" selected="True" />
+            <SelectField field="Operating_Airline " selected="True" />
+            <SelectField field="Dest" selected="True" />
+            <SelectField field="DestCityName" selected="True" />
+            <SelectField field="DestState" selected="True" />
+            <SelectField field="DestStateName" selected="True" />
+            <SelectField field="ArrDelay" selected="True" />
+            <SelectField field="ArrDelayMinutes" selected="True" />
+            <SelectField field="ArrDel15" selected="True" />
+            <SelectField field="Cancelled" selected="True" />
+            <SelectField field="Diverted" selected="True" />
+            <SelectField field="CarrierDelay" selected="True" />
+            <SelectField field="WeatherDelay" selected="True" />
+            <SelectField field="NASDelay" selected="True" />
+            <SelectField field="SecurityDelay" selected="True" />
+            <SelectField field="LateAircraftDelay" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings>
+        <Position x="270" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Year","FlightDate","Operating_Airline ","Dest","DestCityName","DestState","DestStateName","ArrDelay","ArrDelayMinutes","ArrDel15","Cancelled","Diverted","CarrierDelay","WeatherDelay","NASDelay","SecurityDelay","LateAircraftDelay"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ArrDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="ArrDelayMinutes" selected="True" type="Int16" size="2" />
+            <SelectField field="ArrDel15" selected="True" type="Int16" size="2" />
+            <SelectField field="Cancelled" selected="True" type="Int16" size="2" />
+            <SelectField field="Diverted" selected="True" type="Int16" size="2" />
+            <SelectField field="CarrierDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="WeatherDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="NASDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="SecurityDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="LateAircraftDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="Year" selected="False" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings>
+        <Position x="438" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"CarrierDelay","WeatherDelay","NASDelay","SecurityDelay","LateAircraftDelay"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\deivx\AppData\Local\Temp\Engine_17052_df1a10336ea5cb458bf995619c905652_\Engine_17052_a4c2235a9052a94abb6ed4cf9c842809~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FlightDate" selected="True" />
+            <SelectField field="Operating_Airline " selected="True" />
+            <SelectField field="Dest" selected="True" />
+            <SelectField field="DestCityName" selected="True" />
+            <SelectField field="DestState" selected="True" />
+            <SelectField field="DestStateName" selected="True" />
+            <SelectField field="ArrDelay" selected="True" />
+            <SelectField field="ArrDelayMinutes" selected="True" />
+            <SelectField field="ArrDel15" selected="True" />
+            <SelectField field="Cancelled" selected="True" />
+            <SelectField field="Diverted" selected="True" />
+            <SelectField field="CarrierDelay" selected="True" />
+            <SelectField field="WeatherDelay" selected="True" />
+            <SelectField field="NASDelay" selected="True" />
+            <SelectField field="SecurityDelay" selected="True" />
+            <SelectField field="LateAircraftDelay" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings>
+        <Position x="270" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"FlightDate","Operating_Airline ","Dest","DestCityName","DestState","DestStateName","ArrDelay","ArrDelayMinutes","ArrDel15","Cancelled","Diverted","CarrierDelay","WeatherDelay","NASDelay","SecurityDelay","LateAircraftDelay"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ArrDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="ArrDelayMinutes" selected="True" type="Int16" size="2" />
+            <SelectField field="ArrDel15" selected="True" type="Int16" size="2" />
+            <SelectField field="Cancelled" selected="True" type="Int16" size="2" />
+            <SelectField field="Diverted" selected="True" type="Int16" size="2" />
+            <SelectField field="CarrierDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="WeatherDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="NASDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="SecurityDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="LateAircraftDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="Year" selected="False" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings>
+        <Position x="438" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"CarrierDelay","WeatherDelay","NASDelay","SecurityDelay","LateAircraftDelay"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\deivx\AppData\Local\Temp\Engine_17052_df1a10336ea5cb458bf995619c905652_\Engine_17052_e96010f8a2ea624197cf5c242192d58b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Contains([FlightDate], '.') THEN&#xA;DateTimeParse([FlightDate],'%y.%m.%d')&#xA;ELSE [FlightDate]&#xA;ENDIF" field="FlightDate" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>FlightDate = IF Contains([FlightDate], '.') THEN
+DateTimeParse([FlightDate],'%y....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\deivx\AppData\Local\Temp\Engine_17052_df1a10336ea5cb458bf995619c905652_\Engine_17052_d2cac86d8fae764894399b5134ca3193~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="726" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\deivx\AppData\Local\Temp\Engine_17052_df1a10336ea5cb458bf995619c905652_\Engine_17052_60cd5f93f173e84282f7c2259b7a8d9c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="822" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">dim_carrier_code.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dim_carrier_code.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Code" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\dim_carrier_code.csv" type="V_String" />
+            <Field name="Description" size="254" source="File: C:\Users\deivx\OneDrive\Pulpit\BIG DATA ANALYTICS LAB\Alteryx_part\dim_carrier_code.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1278" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\deivx\AppData\Local\Temp\Engine_17052_df1a10336ea5cb458bf995619c905652_\Engine_17052_7d25020890bdef42be62406e820dcd6e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="906" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Operating_Airline " />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Year" selected="False" input="Left_" />
+                <SelectField field="Left_FlightDate" selected="True" input="Left_" />
+                <SelectField field="Left_Operating_Airline " selected="True" input="Left_" />
+                <SelectField field="Right_Code" selected="True" input="Right_" />
+                <SelectField field="Right_Description" selected="True" input="Right_" />
+                <SelectField field="Left_Dest" selected="True" input="Left_" />
+                <SelectField field="Left_DestCityName" selected="True" input="Left_" />
+                <SelectField field="Left_DestState" selected="True" input="Left_" />
+                <SelectField field="Left_DestStateName" selected="True" input="Left_" />
+                <SelectField field="Left_ArrDelay" selected="True" input="Left_" />
+                <SelectField field="Left_ArrDelayMinutes" selected="True" input="Left_" />
+                <SelectField field="Left_ArrDel15" selected="True" input="Left_" />
+                <SelectField field="Left_Cancelled" selected="True" input="Left_" />
+                <SelectField field="Left_Diverted" selected="True" input="Left_" />
+                <SelectField field="Left_CarrierDelay" selected="True" input="Left_" />
+                <SelectField field="Left_WeatherDelay" selected="True" input="Left_" />
+                <SelectField field="Left_NASDelay" selected="True" input="Left_" />
+                <SelectField field="Left_SecurityDelay" selected="True" input="Left_" />
+                <SelectField field="Left_LateAircraftDelay" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1158" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Year" selected="False" />
+            <SelectField field="FlightDate" selected="True" type="Date" size="10" />
+            <SelectField field="Operating_Airline " selected="True" rename="OperatingAirlineCode" />
+            <SelectField field="Code" selected="False" />
+            <SelectField field="Description" selected="True" rename="OperatingAirlineName" />
+            <SelectField field="Country" selected="False" />
+            <SelectField field="DestCountry" selected="True" type="V_String" size="1073741823" />
+            <SelectField field="DestState" selected="True" />
+            <SelectField field="DestStateName" selected="True" />
+            <SelectField field="DestCityName" selected="True" />
+            <SelectField field="Dest" selected="True" />
+            <SelectField field="ArrDelay" selected="True" />
+            <SelectField field="ArrDelayMinutes" selected="True" />
+            <SelectField field="ArrDel15" selected="True" />
+            <SelectField field="Cancelled" selected="True" />
+            <SelectField field="Diverted" selected="True" />
+            <SelectField field="CarrierDelay" selected="True" />
+            <SelectField field="WeatherDelay" selected="True" />
+            <SelectField field="NASDelay" selected="True" />
+            <SelectField field="SecurityDelay" selected="True" />
+            <SelectField field="LateAircraftDelay" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1278" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="64" MaxRecords="">data.hyper</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>data.hyper</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1026" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'USA'" field="DestCountry" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DestCountry = 'USA'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="510" y="90" width="76" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Change data format</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="702" y="90" width="84" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Union all tables in one</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1002" y="102" width="108" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add DestCountry column to the table</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1134" y="90" width="96" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Change FlightDate type to Date type</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="894" y="102" width="96" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Full Join to add CarrierCode to the table</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="102" y="54" width="120" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>I left Browse tools if you want to see results of steps</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ArrDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="ArrDelayMinutes" selected="True" type="Int16" size="2" />
+            <SelectField field="ArrDel15" selected="True" type="Int16" size="2" />
+            <SelectField field="Cancelled" selected="True" type="Int16" size="2" />
+            <SelectField field="Diverted" selected="True" type="Int16" size="2" />
+            <SelectField field="CarrierDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="WeatherDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="NASDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="SecurityDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="LateAircraftDelay" selected="True" type="Int16" size="2" />
+            <SelectField field="Year" selected="False" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output26" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output26" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output26" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output26" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="24" Connection="Output26" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="31" Connection="Output26" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="38" Connection="Output26" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="28" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output26" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="35" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output26" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output26" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="55" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="55" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Join" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alcon_BTS</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="37d50590-0046-4b34-b7e0-e25a7ab7dc31" />
+      <Telemetry>
+        <PreviousWorkflowId value="d760db81-ae02-4f4f-b6fa-d7a5187a951f" />
+        <OriginWorkflowId value="7157379b-88ec-4029-8e89-b6b5e399c11d" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
