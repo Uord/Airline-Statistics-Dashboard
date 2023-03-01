@@ -45,3 +45,7 @@ Cooperation Manager in BTS
 <div class='tableauPlaceholder' id='viz1677705432552' style='position: relative'><noscript><a href='#'><img alt='Dashboard BTS ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Al&#47;Alcon_BTS&#47;DashboardBTS&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Alcon_BTS&#47;DashboardBTS' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Al&#47;Alcon_BTS&#47;DashboardBTS&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>     
 
 [Tableau Public link](https://public.tableau.com/views/Alcon_BTS/DashboardBTS?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+### Data
+
+The data has been extracted from the Marketing Carrier On-Time Performance (Beginning January 2018) data table of the "On-Time" database from the TranStats data library: https://www.bts.gov/
